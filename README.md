@@ -3,7 +3,7 @@
 This repo provides a simple [Babel](https://babeljs.io) plugin for Titanium apps.
 
 ## Setup
-This repo should run as in but to get started in your own app:
+To get started in your own app:
 
 1.  Install babel: `npm install babel -g`
 2.  Put the babel plugin (from the plugins folder), in to your Ti project's `plugins` folder
