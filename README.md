@@ -2,6 +2,12 @@
 
 This repo provides a simple [Babel](https://babeljs.io) plugin for Titanium apps.
 
+- - -
+:v: Do you want to see ES2015 (aka ES6) natively supported by Titanium?
+
+:punch: **Then share your thoughts on [the relative Ti.Forward discussion](https://github.com/TiForward/discuss/issues/8)!**
+- - -
+
 ## Setup
 To get started in your own app:
 
@@ -54,7 +60,7 @@ If you run in to problems or babel isn't compiling your code over to the `Resour
 
 This will show you any compile time errors that are occuring on Babel's side of things.
 
-There are a few other efforts to add ES6 support in the Titanium community, most notably: https://github.com/smclab/titaniumifier .  This repo is just an attempt to do a basic Babel compile of Titanium classic code.
+There are a few other efforts to add ES6 support in the Titanium community, most notably [Titaniumifier](https://github.com/smclab/titaniumifier) in [Host-mode with Babel.js enabled](https://github.com/smclab/titaniumifier/wiki/Host-mode).  This repo is just an attempt to do a basic Babel compile of Titanium classic code.
 
 ## Tweaking
 If you want to tweak the babel plugin, open `plugins/babel/1.0.0/hooks/babel.js`.  In here you can tweak where the code is placed, add more babel options during compilations, etc.
