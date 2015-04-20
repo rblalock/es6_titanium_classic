@@ -6,4 +6,7 @@
 // require('./helloworld/index');
 
 // UI class example
-require('./ui_class_example/index');
+// require('./ui_class_example/index');
+
+// UI Layout prototype
+require('./layout_prototype/index');
